@@ -10,7 +10,7 @@ namespace myProject.EntityFrameworkCore
     public class myProjectDbContext : AbpZeroDbContext<Tenant, Role, User, myProjectDbContext>
     {
         /* Define a DbSet for each entity of the application */
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; } //product
 
         public myProjectDbContext(DbContextOptions<myProjectDbContext> options)
             : base(options)
