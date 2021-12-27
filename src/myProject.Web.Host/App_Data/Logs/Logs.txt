@@ -967,3 +967,378 @@ DEBUG 2021-12-27 15:47:54,402 [97   ] , Culture=neutral, PublicKeyToken=null]] -
 DEBUG 2021-12-27 15:47:54,403 [97   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
 DEBUG 2021-12-27 15:47:54,403 [97   ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[myProject.MultiTenancy.Tenant, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[myProject.Authorization.Users.User, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
 DEBUG 2021-12-27 15:47:54,403 [97   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2021-12-27 16:43:04,048 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-12-27 16:43:04,356 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-12-27 16:43:04,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.Web.Host.Startup.myProjectWebHostModule, myProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectWebCoreModule, myProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectApplicationModule, myProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectCoreModule, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.EntityFrameworkCore.myProjectEntityFrameworkModule, myProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:04,425 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-12-27 16:43:04,484 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 16:43:04,484 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 16:43:04,484 [1    ] o.Configuration.LanguageManagementConfig - Converted myProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 16:43:04,484 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 16:43:04,791 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myProject.EntityFrameworkCore.myProjectDbContext, myProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 16:43:05,585 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-12-27 16:43:05,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-12-27 16:43:05,620 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-12-27 16:43:05,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myProject
+DEBUG 2021-12-27 16:43:05,638 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-12-27 16:43:05,830 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-12-27 16:43:05,944 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[myProject.MultiTenancy.Tenant, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[myProject.Authorization.Users.User, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-12-27 16:43:05,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2021-12-27 16:43:05,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-12-27 16:43:05,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Users.Dto.CreateUserDto
+DEBUG 2021-12-27 16:43:05,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Users.Dto.UserDto
+DEBUG 2021-12-27 16:43:05,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-12-27 16:43:05,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-12-27 16:43:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Services.Products.Dtos.ProductDto
+DEBUG 2021-12-27 16:43:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Roles.Dto.PermissionDto
+DEBUG 2021-12-27 16:43:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-12-27 16:43:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.MultiTenancy.Dto.TenantDto
+INFO  2021-12-27 16:43:08,005 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2021-12-27 16:43:08,252 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+WARN  2021-12-27 16:43:08,300 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:21021/'. Binding to endpoints defined in UseKestrel() instead.
+INFO  2021-12-27 16:43:10,996 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-12-27 16:43:11,098 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host)'
+INFO  2021-12-27 16:43:14,449 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller myProject.Web.Host.Controllers.HomeController (myProject.Web.Host).
+INFO  2021-12-27 16:43:15,506 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host) - Validation state: Valid
+INFO  2021-12-27 16:43:15,512 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3163ms.
+INFO  2021-12-27 16:43:15,684 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-12-27 16:43:15,691 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host) in 1236.5204ms
+INFO  2021-12-27 16:43:15,693 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host)'
+INFO  2021-12-27 16:43:15,707 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4706.674ms 302 
+INFO  2021-12-27 16:43:15,726 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-12-27 16:43:15,769 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.1855ms 200 text/html;charset=utf-8
+INFO  2021-12-27 16:43:15,826 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-12-27 16:43:15,828 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-12-27 16:43:15,836 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2021-12-27 16:43:15,837 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2021-12-27 16:43:15,840 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.1819ms 304 application/javascript
+INFO  2021-12-27 16:43:15,842 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.1252ms 304 application/javascript
+INFO  2021-12-27 16:43:15,902 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2021-12-27 16:43:15,917 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.6833ms 404 
+INFO  2021-12-27 16:43:15,923 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2021-12-27 16:43:15,969 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.0536ms 404 
+INFO  2021-12-27 16:43:16,015 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2021-12-27 16:43:16,018 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2846ms 404 
+INFO  2021-12-27 16:43:16,021 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2021-12-27 16:43:16,023 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.646ms 404 
+INFO  2021-12-27 16:43:16,034 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-12-27 16:43:16,037 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host)'
+INFO  2021-12-27 16:43:16,048 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller myProject.Web.Host.Controllers.AntiForgeryController (myProject.Web.Host).
+INFO  2021-12-27 16:43:16,074 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host) - Validation state: Valid
+INFO  2021-12-27 16:43:16,076 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-12-27 16:43:16,086 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.2212ms.
+INFO  2021-12-27 16:43:16,113 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 16:43:16,214 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host) in 163.7266ms
+INFO  2021-12-27 16:43:16,215 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host)'
+INFO  2021-12-27 16:43:16,217 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 183.6409ms 200 application/json; charset=utf-8
+INFO  2021-12-27 16:43:16,219 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 144.6486ms 200 application/json;charset=utf-8
+INFO  2021-12-27 16:43:45,373 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Product/Create application/json-patch+json 52
+INFO  2021-12-27 16:43:45,379 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-12-27 16:43:45,381 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-12-27 16:43:45,385 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Services.Products.ProductAppService.CreateAsync (myProject.Application)'
+INFO  2021-12-27 16:43:45,403 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] CreateAsync(myProject.Services.Products.Dtos.ProductDto) on controller myProject.Services.Products.ProductAppService (myProject.Application).
+INFO  2021-12-27 16:43:45,702 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Services.Products.ProductAppService.CreateAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 16:43:59,431 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Services.Products.ProductAppService.CreateAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13703.1177ms.
+INFO  2021-12-27 16:43:59,458 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 16:43:59,461 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Services.Products.ProductAppService.CreateAsync (myProject.Application) in 14054.9309ms
+INFO  2021-12-27 16:43:59,463 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Services.Products.ProductAppService.CreateAsync (myProject.Application)'
+INFO  2021-12-27 16:43:59,465 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14092.3627ms 200 application/json; charset=utf-8
+DEBUG 2021-12-27 17:04:21,755 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-12-27 17:04:21,872 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-12-27 17:04:21,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.Web.Host.Startup.myProjectWebHostModule, myProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectWebCoreModule, myProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectApplicationModule, myProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.myProjectCoreModule, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myProject.EntityFrameworkCore.myProjectEntityFrameworkModule, myProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:21,890 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-12-27 17:04:21,946 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 17:04:21,946 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 17:04:21,946 [1    ] o.Configuration.LanguageManagementConfig - Converted myProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 17:04:21,946 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-12-27 17:04:22,250 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myProject.EntityFrameworkCore.myProjectDbContext, myProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-12-27 17:04:23,032 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-12-27 17:04:23,063 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-12-27 17:04:23,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-12-27 17:04:23,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myProject
+DEBUG 2021-12-27 17:04:23,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-12-27 17:04:23,275 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-12-27 17:04:23,394 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[myProject.MultiTenancy.Tenant, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[myProject.Authorization.Users.User, myProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-12-27 17:04:23,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2021-12-27 17:04:23,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-12-27 17:04:23,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Users.Dto.CreateUserDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Users.Dto.UserDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Services.Products.Dtos.ProductDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.Roles.Dto.PermissionDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-12-27 17:04:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myProject.MultiTenancy.Dto.TenantDto
+INFO  2021-12-27 17:04:25,426 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2021-12-27 17:04:25,656 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+WARN  2021-12-27 17:04:25,702 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:21021/'. Binding to endpoints defined in UseKestrel() instead.
+INFO  2021-12-27 17:04:28,270 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-12-27 17:04:28,366 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host)'
+INFO  2021-12-27 17:04:31,728 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller myProject.Web.Host.Controllers.HomeController (myProject.Web.Host).
+INFO  2021-12-27 17:04:32,763 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host) - Validation state: Valid
+INFO  2021-12-27 17:04:32,768 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3191ms.
+INFO  2021-12-27 17:04:32,939 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-12-27 17:04:32,946 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host) in 1213.5711ms
+INFO  2021-12-27 17:04:32,948 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Web.Host.Controllers.HomeController.Index (myProject.Web.Host)'
+INFO  2021-12-27 17:04:32,957 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4686.7502ms 302 
+INFO  2021-12-27 17:04:32,975 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-12-27 17:04:33,016 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.5288ms 200 text/html;charset=utf-8
+INFO  2021-12-27 17:04:33,038 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-12-27 17:04:33,039 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-12-27 17:04:33,047 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2021-12-27 17:04:33,048 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2021-12-27 17:04:33,051 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.0517ms 304 application/javascript
+INFO  2021-12-27 17:04:33,053 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.0517ms 304 application/javascript
+INFO  2021-12-27 17:04:33,104 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-12-27 17:04:33,111 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host)'
+INFO  2021-12-27 17:04:33,120 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2021-12-27 17:04:33,122 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2021-12-27 17:04:33,131 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller myProject.Web.Host.Controllers.AntiForgeryController (myProject.Web.Host).
+INFO  2021-12-27 17:04:33,160 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host) - Validation state: Valid
+INFO  2021-12-27 17:04:33,161 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-12-27 17:04:33,170 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.7882ms 404 
+INFO  2021-12-27 17:04:33,173 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.5952ms 404 
+INFO  2021-12-27 17:04:33,209 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2021-12-27 17:04:33,211 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 48.9238ms.
+INFO  2021-12-27 17:04:33,214 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2021-12-27 17:04:33,229 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:04:33,284 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 96.284ms 404 
+INFO  2021-12-27 17:04:33,288 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.273ms 404 
+INFO  2021-12-27 17:04:33,357 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host) in 224.7715ms
+INFO  2021-12-27 17:04:33,359 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Web.Host.Controllers.AntiForgeryController.SetCookie (myProject.Web.Host)'
+INFO  2021-12-27 17:04:33,362 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 257.4716ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:04:33,365 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 205.1235ms 200 application/json;charset=utf-8
+INFO  2021-12-27 17:04:51,085 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2021-12-27 17:04:51,089 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application)'
+INFO  2021-12-27 17:04:51,101 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[myProject.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller myProject.Sessions.SessionAppService (myProject.Application).
+INFO  2021-12-27 17:04:51,552 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:04:51,599 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 45.1044ms.
+INFO  2021-12-27 17:04:51,604 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:04:51,624 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application) in 521.2188ms
+INFO  2021-12-27 17:04:51,627 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application)'
+INFO  2021-12-27 17:04:51,630 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 546.0553ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:12:09,287 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2021-12-27 17:12:09,294 [36   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:09,298 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5993ms 204 
+INFO  2021-12-27 17:12:09,301 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2021-12-27 17:12:09,304 [35   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:09,384 [35   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:09,413 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2021-12-27 17:12:09,421 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2021-12-27 17:12:09,524 [36   ] c.Infrastructure.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2021-12-27 17:12:10,165 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 637.6408ms.
+INFO  2021-12-27 17:12:10,187 [36   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:12:10,229 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 805.6882ms
+INFO  2021-12-27 17:12:10,232 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2021-12-27 17:12:10,235 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 933.1526ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:12:10,244 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2021-12-27 17:12:10,246 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:10,248 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5601ms 204 
+INFO  2021-12-27 17:12:10,257 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2021-12-27 17:12:10,259 [36   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:10,263 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:10,265 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application)'
+INFO  2021-12-27 17:12:10,269 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[myProject.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller myProject.Sessions.SessionAppService (myProject.Application).
+INFO  2021-12-27 17:12:10,289 [36   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:12:10,300 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.1449ms.
+INFO  2021-12-27 17:12:10,303 [32   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:12:10,307 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application) in 35.3932ms
+INFO  2021-12-27 17:12:10,309 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Sessions.SessionAppService.GetCurrentLoginInformations (myProject.Application)'
+INFO  2021-12-27 17:12:10,311 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.2035ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:12:10,654 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D  
+INFO  2021-12-27 17:12:10,656 [36   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:10,658 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6164ms 204 
+INFO  2021-12-27 17:12:10,663 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D text/plain;charset=UTF-8 0
+INFO  2021-12-27 17:12:10,666 [35   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:10,676 [35   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:10,679 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-12-27 17:12:10,688 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-12-27 17:12:10,689 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.6894ms 200 application/json
+INFO  2021-12-27 17:12:10,694 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D&id=BxGkCQrOjuODplkiafOk9Q  
+INFO  2021-12-27 17:12:10,696 [36   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:10,700 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:10,702 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-12-27 17:12:10,741 [35   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"BxGkCQrOjuODplkiafOk9Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-12-27T17:12:10.7356814+07:00","Properties":{}}
+DEBUG 2021-12-27 17:12:10,747 [35   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: BxGkCQrOjuODplkiafOk9Q
+INFO  2021-12-27 17:12:18,030 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:12:18,032 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:18,035 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.5245ms 204 
+INFO  2021-12-27 17:12:18,078 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:12:18,080 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:18,085 [30   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:18,088 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:12:18,106 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:12:18,340 [30   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:12:18,441 [35   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 98.2902ms.
+INFO  2021-12-27 17:12:18,449 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:12:18,456 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 348.558ms
+INFO  2021-12-27 17:12:18,458 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:12:18,461 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 381.7705ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:12:34,505 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2021-12-27 17:12:34,507 [35   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:34,510 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5187ms 204 
+INFO  2021-12-27 17:12:34,520 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2021-12-27 17:12:34,522 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:34,526 [30   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:34,529 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllPermissions (myProject.Application)'
+INFO  2021-12-27 17:12:34,540 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.ListResultDto`1[myProject.Roles.Dto.PermissionDto]] GetAllPermissions() on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:12:34,563 [30   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllPermissions (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:12:34,575 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllPermissions (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.4021ms.
+INFO  2021-12-27 17:12:34,584 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:12:34,591 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllPermissions (myProject.Application) in 48.9062ms
+INFO  2021-12-27 17:12:34,593 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllPermissions (myProject.Application)'
+INFO  2021-12-27 17:12:34,595 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.6177ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:12:57,058 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/Create  
+INFO  2021-12-27 17:12:57,060 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:57,062 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.9791ms 204 
+INFO  2021-12-27 17:12:57,072 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 112
+INFO  2021-12-27 17:12:57,074 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:12:57,077 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:12:57,079 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.CreateAsync (myProject.Application)'
+INFO  2021-12-27 17:12:57,090 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[myProject.Roles.Dto.RoleDto] CreateAsync(myProject.Roles.Dto.CreateRoleDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:12:57,135 [32   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.CreateAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:13:28,795 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D  
+INFO  2021-12-27 17:13:28,797 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:13:28,800 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.4454ms 204 
+INFO  2021-12-27 17:13:28,806 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D text/plain;charset=UTF-8 0
+INFO  2021-12-27 17:13:28,826 [29   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+DEBUG 2021-12-27 17:13:36,845 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: BxGkCQrOjuODplkiafOk9Q
+INFO  2021-12-27 17:13:36,854 [29   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:13:36,857 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2021-12-27 17:13:36,859 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2021-12-27 17:13:36,861 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8055.9892ms 200 application/json
+INFO  2021-12-27 17:13:36,868 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2021-12-27 17:13:36,871 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86176.4543ms 101 
+INFO  2021-12-27 17:13:36,873 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiabgVpwAfKzFoaZuCG8g3hHZgXBPxZ82jBh%2BhtcchCrheSFd%2Bp6yMi4hYIGmNwpeiIxBGlqgmXO52zed67RpfnOAJ8te72QJHC8stvQMNUqBaZIQ2WfQChF5n1G2WaumX8YKSANwZQDdO3Lfs6RjzIDqH52PDvGkXafRfsCR4cei%2BtRC0hjUYdJ%2B4NSoox%2BCRu4mC6897HD%2BgwcoX8TcReJ6X8N%2FW3%2F%2BZBk%2FkwBpEqjCu1lxVN%2B8T76HLg%2BMadoU9ooCSWIZjZ5FWXvmAaIq2iD4BEO81jiNV0CAhoY2Jne29NSW8cBjWZ1ybVTffhH236e9WhPxbod7yJ6P7gBhxAA79H9%2F8qi6WTE%2FJ5JUNrc8Q%2FEmTKgGQJlRSViJd%2Fgj6Zl5xOfAQmpHMF8JDT45PAKH4NPbAnjeSschMBZxD4f0zzRc8wL6TiJlw0Mj59%2B8EvK3RKi0TPOXrHIBlnsnC5ap%2FWWpsJ0i%2Fy7NfexugqPpjrnmF0CTtVmQEXsXd%2Fd46Y%3D&id=mOYJM3idzACClyZCIWDrfQ  
+INFO  2021-12-27 17:13:36,875 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:13:36,910 [28   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:13:36,912 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2021-12-27 17:13:36,917 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"mOYJM3idzACClyZCIWDrfQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2021-12-27T17:13:36.9171326+07:00","Properties":{}}
+INFO  2021-12-27 17:13:46,142 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.CreateAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 49003.7306ms.
+INFO  2021-12-27 17:13:46,186 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:13:46,189 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.CreateAsync (myProject.Application) in 49097.1263ms
+INFO  2021-12-27 17:13:46,191 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.CreateAsync (myProject.Application)'
+INFO  2021-12-27 17:13:46,193 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49121.2847ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:13:46,231 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:13:46,233 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:13:46,235 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1849ms 204 
+INFO  2021-12-27 17:13:46,238 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:13:46,240 [29   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:13:46,244 [29   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:13:46,246 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:13:46,252 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:13:46,273 [29   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:13:46,288 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.1638ms.
+INFO  2021-12-27 17:13:46,299 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:13:46,302 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 46.9748ms
+INFO  2021-12-27 17:13:46,304 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:13:46,307 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.8646ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:16:47,050 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:16:47,051 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:16:47,054 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.557ms 204 
+INFO  2021-12-27 17:16:47,058 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:16:47,060 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:16:47,063 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:16:47,065 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:16:47,071 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:16:47,092 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:16:47,111 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.1569ms.
+INFO  2021-12-27 17:16:47,126 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:16:47,128 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 55.846ms
+INFO  2021-12-27 17:16:47,130 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:16:47,132 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.44ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:17:25,463 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=sdasdsad&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:25,464 [38   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:25,466 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8286ms 204 
+INFO  2021-12-27 17:17:25,478 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=sdasdsad&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:25,479 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:25,482 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:17:25,484 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:25,489 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:17:25,510 [32   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:17:25,546 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.9474ms.
+INFO  2021-12-27 17:17:25,555 [32   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:17:25,557 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 66.3821ms
+INFO  2021-12-27 17:17:25,559 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:25,561 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.8867ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:17:27,040 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=sdasdsad&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:27,042 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:27,044 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:17:27,046 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:27,053 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:17:27,074 [32   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:17:27,081 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.7893ms.
+INFO  2021-12-27 17:17:27,090 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:17:27,092 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 38.1184ms
+INFO  2021-12-27 17:17:27,094 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:27,097 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.7821ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:17:29,909 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:29,911 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:29,912 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3641ms 204 
+INFO  2021-12-27 17:17:29,916 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:29,917 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:29,920 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:17:29,922 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:29,929 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:17:29,951 [8    ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:17:29,966 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.7741ms.
+INFO  2021-12-27 17:17:29,977 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:17:29,980 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 48.7059ms
+INFO  2021-12-27 17:17:29,981 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:29,983 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.8353ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:17:33,173 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?Keyword=admin&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:33,174 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:33,176 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3852ms 204 
+INFO  2021-12-27 17:17:33,179 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?Keyword=admin&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:17:33,180 [32   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:17:33,182 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:17:33,184 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:33,189 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Roles.Dto.RoleDto]] GetAllAsync(myProject.Roles.Dto.PagedRoleResultRequestDto) on controller myProject.Roles.RoleAppService (myProject.Application).
+INFO  2021-12-27 17:17:33,210 [32   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:17:33,218 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Roles.RoleAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.7974ms.
+INFO  2021-12-27 17:17:33,226 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:17:33,228 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Roles.RoleAppService.GetAllAsync (myProject.Application) in 38.1266ms
+INFO  2021-12-27 17:17:33,230 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Roles.RoleAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:17:33,232 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.5377ms 200 application/json; charset=utf-8
+INFO  2021-12-27 17:19:39,361 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:19:39,362 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:19:39,365 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6425ms 204 
+INFO  2021-12-27 17:19:39,368 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2021-12-27 17:19:39,370 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2021-12-27 17:19:39,374 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-12-27 17:19:39,377 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'myProject.Users.UserAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:19:39,386 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[myProject.Users.Dto.UserDto]] GetAllAsync(myProject.Users.Dto.PagedUserResultRequestDto) on controller myProject.Users.UserAppService (myProject.Application).
+INFO  2021-12-27 17:19:39,910 [13   ] c.Infrastructure.ControllerActionInvoker - Executing action method myProject.Users.UserAppService.GetAllAsync (myProject.Application) - Validation state: Valid
+INFO  2021-12-27 17:19:39,982 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method myProject.Users.UserAppService.GetAllAsync (myProject.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 69.4205ms.
+INFO  2021-12-27 17:19:39,996 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-12-27 17:19:40,005 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action myProject.Users.UserAppService.GetAllAsync (myProject.Application) in 616.0405ms
+INFO  2021-12-27 17:19:40,007 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'myProject.Users.UserAppService.GetAllAsync (myProject.Application)'
+INFO  2021-12-27 17:19:40,010 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 641.2863ms 200 application/json; charset=utf-8
