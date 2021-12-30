@@ -8,7 +8,8 @@ namespace myProject.Authorization
     {
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
-            context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
+            var user = context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
+            user.CreateChildPermission(PermissionNames.Pages_Users_Create);
             context.CreatePermission(PermissionNames.Pages_Roles, L("Roles"));
             context.CreatePermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
         }

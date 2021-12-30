@@ -1,18 +1,20 @@
-﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
+﻿using Abp.AutoMapper;
 using Microsoft.AspNetCore.Http;
+using myProject.Data.Entities.Products;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace myProject.Data.Entities.Products
+namespace myProject.Services.Products.Dtos
 {
-    public class Product : Entity<int>
+    [AutoMapTo(typeof(Product))]
+    public class CreateProductDto
     {
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
         public int Quantity { get; set; }
-        public string ImagePath { get; set; }
+        public string Image { get; set; }
+
     }
 }
