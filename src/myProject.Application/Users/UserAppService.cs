@@ -21,6 +21,7 @@ using myProject.Roles.Dto;
 using myProject.Users.Dto;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Abp.AutoMapper;
 
 namespace myProject.Users
 {
@@ -82,7 +83,8 @@ namespace myProject.Users
 
             var user = await _userManager.GetUserByIdAsync(input.Id);
 
-            MapToEntity(input, user);
+            //MapToEntity(input, user);
+            input.MapTo(user);
 
             CheckErrors(await _userManager.UpdateAsync(user));
 
@@ -225,4 +227,3 @@ namespace myProject.Users
         }
     }
 }
-
