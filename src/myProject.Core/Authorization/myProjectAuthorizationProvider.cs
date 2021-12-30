@@ -8,10 +8,10 @@ namespace myProject.Authorization
     {
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
-            var user = context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
-            user.CreateChildPermission(PermissionNames.Pages_Users_Create);
+            context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
             context.CreatePermission(PermissionNames.Pages_Roles, L("Roles"));
             context.CreatePermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
+            context.CreatePermission(PermissionNames.Pages_Products, L("Products"), multiTenancySides: MultiTenancySides.Tenant);
         }
 
         private static ILocalizableString L(string name)

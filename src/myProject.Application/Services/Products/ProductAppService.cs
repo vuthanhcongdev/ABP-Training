@@ -101,7 +101,10 @@ namespace myProject.Services.Products
             var abc = query.Skip(1).Take(request.MaxResultCount);
             var data = query.Skip(request.SkipCount).Take(request.MaxResultCount).Select(x => new ProductDto()
             {
+                Id = x.Id,
                 Name = x.Name,
+                Price = x.Price,
+                Description = x.Description,
                 Quantity = x.Quantity,
                 ImagePath = x.ImagePath,
 
